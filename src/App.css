@@ -2,46 +2,45 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.appLinks{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 .jumbotron{
-  background-image: url("../src/Images/photo3.jpg");
+  background-image: url("../src/Images/matt.jpg");
   background-size: cover;
   background-position: center; /* Center the image */
   background-repeat: no-repeat;
-  width: 100%; 
-  border: 5px solid green;
+  width: 100%;
+  padding: 25%;  
+  /* border: 5px solid green; */
 }
 
-.homeHeader{
+.headerNav{
+  font-family: 'Racing Sans One', cursive;
+  font-size: 2.1em; 
   color: white;
-  text-align: left;
+}
+
+
+.header{
+  font-family: 'Racing Sans One', cursive;
+  font-size: 4em; 
+  color: white;
+}
+
+
+.headShot{ 
+  width: 40%; 
+  height: auto; 
+}
+
+.aboutMeBox{
+  background-color:#2274A5;  
+}
+
+.certBox{
+  background-color: #FFBF00; 
 }
