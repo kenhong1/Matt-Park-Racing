@@ -18,6 +18,7 @@ class App extends Component {
     <BrowserRouter>
       <div className="App">
         <Navbar className="navBar" bg="dark" variant="dark">
+          <Navbar.Brand href="/">MPR</Navbar.Brand>
           <Nav.Link href="/"> Home </Nav.Link>
           <Nav.Link href="/connect"> Connect </Nav.Link>
         </Navbar>

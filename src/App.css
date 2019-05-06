@@ -31,3 +31,17 @@
     transform: rotate(360deg);
   }
 }
+
+.jumbotron{
+  background-image: url("../src/Images/photo3.jpg");
+  background-size: cover;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+  width: 100%; 
+  border: 5px solid green;
+}
+
+.homeHeader{
+  color: white;
+  text-align: left;
+}
