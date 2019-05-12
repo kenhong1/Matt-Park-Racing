@@ -20,10 +20,10 @@ const Home = () => {
       <div className="aboutMeBox"> 
          <Row> 
             <Col> 
-               <Image className="headShot" src={headshot} thumbnail/>
+               <Image className="headShot" src={headshot} roundedCircle/>
             </Col>
             <Col>
-            <h3 className="header"> Matt Park </h3>
+            <h3 className="header"> Matthew Park </h3>
                <p> Bio Goes Here </p>
             </Col>
          </Row>
@@ -45,9 +45,12 @@ const Home = () => {
          </Row>
       </div>
 <svg width="100%" viewBox="0 0 10 1"><polygon stroke="none" stroke-width="0" fill="#FFBF00" points="0,0 10,0 10,0.3 0,1"></polygon></svg>
-
 <br /> 
-      </div>
+<div className="mediaBox">
+      <h3> Media </h3>
+
+</div>      
+</div>
    )
 }
 
