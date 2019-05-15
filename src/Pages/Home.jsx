@@ -3,6 +3,14 @@ import RaceCar from "../Images/carClose.jpg"
 import RaceCarTwo from "../Images/photo2.jpg" 
 import RaceCarThree from "../Images/photo3.jpg"
 import headshot from "../Images/mattHeadshot.jpg"
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faReact, faPython, faJsSquare, faJava } from "@fortawesome/free-brands-svg-icons"
+
+
+
+library.add()
+
 
 
 import {Jumbotron, Carousel, Caption, Image, Container, Row, Col, Card} from "react-bootstrap"
