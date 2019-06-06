@@ -42,13 +42,13 @@ const Home = () => {
       <div className="certBox">
          <Row>
             <Col>
-               <h1 className="header"> NASA Driver </h1>
+               <h1 className="header"> NASA Instructor </h1>
             </Col>
             <Col>
                <h1 className="header"> NASA ST4/TT4 Driver </h1> 
             </Col>
             <Col>
-               <h1 className="header"> Gridlife Time Attack </h1> 
+               <h1 className="header"> Gridlife High Preformance Driving </h1> 
             </Col>
          </Row>
       </div>
