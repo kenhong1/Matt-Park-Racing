@@ -43,3 +43,12 @@
 .certBox{
   background-color: #FFBF00; 
 }
+
+.aboutMeBox{
+  margin: 4em; 
+}
+
+.photo1{
+  height: 100%;
+  width: 90%;
+}

@@ -1,10 +1,11 @@
 import React from "react"  
-import RaceCar from "../Images/carClose.jpg"
-import RaceCarTwo from "../Images/photo2.jpg" 
-import RaceCarThree from "../Images/photo3.jpg"
+// import RaceCar from "../Images/carClose.jpg"
+// import RaceCarTwo from "../Images/photo2.jpg" 
+// import RaceCarThree from "../Images/photo3.jpg"
 import headshot from "../Images/mattHeadshot.jpg"
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import photo1 from "../Images/photo1.jpeg"
 // import { } from "@fortawesome/free-brands-svg-icons"
 import {Jumbotron, Carousel, Caption, Image, Container, Row, Col, Card} from "react-bootstrap"
 
@@ -33,6 +34,7 @@ const Home = () => {
          <Row>
             <Col>
                <h3> Picture 1 </h3>
+               <img className="photo1" src={photo1} alt="Third slide"/>
             </Col>
             <Col>
                <h3> Picture 2 </h3>
