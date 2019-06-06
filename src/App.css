@@ -2,12 +2,10 @@
   text-align: center;
 }
 
-
 .appLinks{
   color: white;
   font-family: 'Racing Sans One', cursive;
   font-size: 1.4em; 
-
 }
 
 .jumbotron{
@@ -15,8 +13,8 @@
   z-index:-2;
   height:62.5vh;
   margin: 8%; 
-  
 }
+
 .video-background { 
   position: fixed;
   top: 0;
@@ -41,11 +39,6 @@
   font-size: 4em; 
   color: white;
 }
-
-
-
-
-
 
 .certBox{
   background-color: #FFBF00; 

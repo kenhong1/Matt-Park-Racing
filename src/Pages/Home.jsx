@@ -30,7 +30,17 @@ const Home = () => {
    </div>
 <br /> 
       <div className="aboutMeBox"> 
-      
+         <Row>
+            <Col>
+               <h3> Picture 1 </h3>
+            </Col>
+            <Col>
+               <h3> Picture 2 </h3>
+            </Col>
+            <Col>
+               <h3> Picture 3 </h3>
+            </Col>
+         </Row>
       </div>
 <br /> 
 <svg width="100%" viewBox="0 0 10 1"><polygon stroke="none" stroke-width="0" fill="#FFBF00" points="0,0.6 0,1 10,1 10,0"></polygon></svg>
