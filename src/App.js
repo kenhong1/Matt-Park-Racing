@@ -1,16 +1,13 @@
 import React, {Component} from "react"
 import logo from './logo.svg';
-
 import {BrowserRouter, Route, Link} from "react-router-dom"
 import { Navbar, Nav } from 'react-bootstrap';
-
-
 import './App.css';
 import Home from "./Pages/Home";
 import Connect from "./Pages/Connect";
 
 class App extends Component {
- render(){
+render(){
 
 
 

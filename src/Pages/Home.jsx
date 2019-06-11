@@ -6,6 +6,8 @@ import headshot from "../Images/mattHeadshot.jpg"
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import photo1 from "../Images/photo1.jpeg"
+import photo2 from "../Images/photo2.jpeg"
+import photo3 from "../Images/photo3.jpeg"
 // import { } from "@fortawesome/free-brands-svg-icons"
 import {Jumbotron, Carousel, Caption, Image, Container, Row, Col, Card} from "react-bootstrap"
 
@@ -38,9 +40,11 @@ const Home = () => {
             </Col>
             <Col>
                <h3> Picture 2 </h3>
+               <img className="photo1" src={photo2} alt="Third slide"/>
             </Col>
             <Col>
                <h3> Picture 3 </h3>
+               <img className="photo1" src={photo3} alt="Third slide"/> 
             </Col>
          </Row>
       </div>
