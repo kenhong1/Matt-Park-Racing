@@ -21,16 +21,13 @@ class Connect extends Component{
 <br /> 
             <Row>
                <Col>
-               <FontAwesomeIcon className="fontAwe" size="4x" icon={['fab', "facebook"]} />
-                  <h2> Facebook Icon </h2>
+               <a href="https://www.facebook.com/matthewparkracing/"><FontAwesomeIcon className="fontAwe" size="4x" icon={['fab', "facebook"]} /></a>
                </Col>
                <Col> 
-               <FontAwesomeIcon className="fontAwe" size="4x" icon={['fab', "instagram"]} />
-                  <h2> Instagram</h2>
+               <a href="https://www.instagram.com/matthewparkracing/"><FontAwesomeIcon className="fontAwe" size="4x" icon={['fab', "instagram"]} /></a>
                </Col>
                <Col>
                <FontAwesomeIcon className="fontAwe" size="4x" icon={['fas', "envelope"]} />
-                  <h3> Email Icon </h3>
                </Col>
             </Row>
          </div>

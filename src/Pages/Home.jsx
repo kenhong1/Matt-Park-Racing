@@ -8,6 +8,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import photo1 from "../Images/photo1.jpeg"
 import photo2 from "../Images/photo2.jpeg"
 import photo3 from "../Images/photo3.jpeg"
+import photo4 from "../Images/Nasa.jpeg"
+import photo5 from "../Images/TfWorks.jpg"
+import photo6 from "../Images/Koyorad.png"
+import photo7 from "../Images/Reinharte.jpg"
+
 // import { } from "@fortawesome/free-brands-svg-icons"
 import {Jumbotron, Carousel, Caption, Image, Container, Row, Col, Card} from "react-bootstrap"
 
@@ -53,13 +58,17 @@ const Home = () => {
       <div className="certBox">
          <Row>
             <Col>
-               <h1 className="header"> NASA Instructor </h1>
+               <img className="photo2" src={photo4} alt="Third slide" /> 
+               <img className="photo2" src={photo6} alt="third slide"/>
             </Col>
             <Col>
-               <h1 className="header"> NASA ST4/TT4 Driver </h1> 
+               <img className="photo2" src={photo5} alt="Third Slide" /> 
+               <br  /> 
+               
             </Col>
             <Col>
-               <h1 className="header"> Gridlife High Preformance Driving </h1> 
+               <img className="photo2" src={photo7} alt="third slide" /> 
+               
             </Col>
          </Row>
       </div>
