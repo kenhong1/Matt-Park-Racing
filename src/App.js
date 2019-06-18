@@ -20,7 +20,7 @@ render(){
     <BrowserRouter>
       <div className="App">
         <Navbar className="navBar" bg="dark" variant="dark">
-          <Navbar.Brand className="headerNav" href="/"> Matthew Park Racing </Navbar.Brand>
+          <Navbar.Brand className="headerNav" href="/"></Navbar.Brand>
           <Nav.Link className="appLinks" href="/">
             <FontAwesomeIcon className="fontAwe" size="2x" icon="home" />  
           </Nav.Link>

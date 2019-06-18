@@ -32,8 +32,8 @@ const Home = () => {
             </video>
       <div className="container-fluid" id="content">
          <h1 className="display-3"> Video Goes Here</h1>
-         <p className="lead">Sub Text</p>
-         <a className="btn btn-primary btn-lg" href="#learnmore">Learn More</a>
+         {/* <p className="lead">Sub Text</p> */}
+         {/* <a className="btn btn-primary btn-lg" href="#learnmore">Learn More</a> */}
       </div>
    </div>
 <br /> 
@@ -54,8 +54,12 @@ const Home = () => {
          </Row>
       </div>
 <br /> 
-<svg width="100%" viewBox="0 0 10 1"><polygon stroke="none" stroke-width="0" fill="#FFBF00" points="0,0.6 0,1 10,1 10,0"></polygon></svg>
+{/* <svg width="100%" viewBox="0 0 10 1"><polygon stroke="none" stroke-width="0" fill="#FFBF00" points="0,0.6 0,1 10,1 10,0"></polygon></svg> */}
       <div className="certBox">
+      <h1> Sponsors And Affiliattes </h1>
+      <> 
+         {""} 
+      </>
          <Row>
             <Col>
                <img className="photo2" src={photo4} alt="Third slide" /> 
@@ -72,7 +76,7 @@ const Home = () => {
             </Col>
          </Row>
       </div>
-<svg width="100%" viewBox="0 0 10 1"><polygon stroke="none" stroke-width="0" fill="#FFBF00" points="0,0 10,0 10,0.3 0,1"></polygon></svg>
+{/* <svg width="100%" viewBox="0 0 10 1"><polygon stroke="none" stroke-width="0" fill="#FFBF00" points="0,0 10,0 10,0.3 0,1"></polygon></svg> */}
 <br /> 
 <div className="mediaBox">
       <h3> Media </h3>
